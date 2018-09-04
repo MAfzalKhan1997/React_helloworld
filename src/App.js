@@ -4,7 +4,7 @@ import './App.css';
 
 class App extends Component {
   render() {
-    const helloworld = 'HelloWorld';
+    const text = 'HelloWorld';
      
     return (
       <div className="App">
@@ -13,9 +13,10 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-        To get started, edit <code>src/App.js</code> and save to reload.
+        {/* To get started, edit <code>src/App.js</code> and save to reload. */}
+        <h1>{text}</h1>
         </p>
-        <h2>{helloworld}</h2>
+
       </div>
     );
   }
